@@ -13,7 +13,7 @@ var jzServices = angular.module('jzServices', ['ngResource']);
 
 jzServices.factory('ProjectsAll', ['$resource',
   function($resource){
-    return $resource('./app/api/_all.json', {}, {
+    return $resource('/portfolio/data/_all.json', {}, {
       get: {method:'GET',  params:{}, isArray:false, headers: HEADERS}
     });
 }]);  
@@ -22,7 +22,7 @@ jzServices.factory('ProjectsAll', ['$resource',
 
 jzServices.factory('Project', ['$resource',
   function($resource){
-    return $resource('./app/api/:id.json', {}, {
+    return $resource('/portfolio/data/:id.json', {}, {
       get: {method:'GET',  params:{id:''}, isArray:false, headers: HEADERS}
     });
 }]);  
