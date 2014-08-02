@@ -1,0 +1,14 @@
+{
+	"id": "papervitamins",
+	"name": "Papervitamins",
+	"images": [
+		{"id": 1, "name": "Papervitamins", "url": "./app/img/papervitamins-screenshot-01.jpg"},
+		{"id": 2, "name": "Papervitamins", "url": "./app/img/papervitamins-screenshot-02.jpg"},
+		{"id": 3, "name": "Papervitamins", "url": "./app/img/papervitamins-screenshot-03.jpg"},
+		{"id": 4, "name": "Papervitamins", "url": "./app/img/papervitamins-screenshot-04.jpg"}	
+	],
+	"list": ["Creative Lead", "Interaction Lead", "Visual Design", "Logo Design", "Web Design"],
+	"links":[
+		{"type": "web", "href":  "http://www.papervitamins.com"}
+	]
+}

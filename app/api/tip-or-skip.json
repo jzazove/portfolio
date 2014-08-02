@@ -1,0 +1,16 @@
+{
+	"id": "tiporskip",
+	"name": "Tip or Skip",
+	"images": [
+		{"id": 1, "name": "Tip or Skip", "url": "./app/img/tiporskip-screenshot-01.jpg"},
+		{"id": 2, "name": "Tip or Skip", "url": "./app/img/tiporskip-screenshot-02.jpg"},
+		{"id": 3, "name": "Tip or Skip", "url": "./app/img/tiporskip-screenshot-03.jpg"},
+		{"id": 4, "name": "Tip or Skip", "url": "./app/img/tiporskip-screenshot-04.jpg"}	
+	],
+	"list": ["Interaction Lead", "Mobile UI/UX", "Visual Design", "Logo Design", "Web Design" ],
+	"links":[
+		{"type": "iOS", "href": "https://itunes.apple.com/us/app/tip-or-skip-shop-ebay-amazon/id496354398?mt=8"},
+		{"type": "Android", "href":  "https://play.google.com/store/apps/details?id=com.tiporskip"},
+		{"type": "web", "href":  "http://tips.by"}
+	]
+}

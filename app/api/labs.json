@@ -1,0 +1,18 @@
+{
+	"id": "labs",
+	"name": "Labs",
+	"images": [
+		{"id": 1, "name": "Labs", "url": "./app/img/labs-screenshot-01.jpg"},
+		{"id": 2, "name": "Labs", "url": "./app/img/labs-screenshot-02.jpg"},
+		{"id": 3, "name": "Labs", "url": "./app/img/labs-screenshot-03.jpg"},
+		{"id": 4, "name": "Labs", "url": "./app/img/labs-screenshot-04.jpg"}	
+	],
+	"list": ["Creative Lead", "Interaction Lead", "Visual Design", "Logo Design"],
+	"links":[
+		{"type": "web", "href":  "http://zazove.org/searchpage"},
+		{"type": "code", "href":  "http://zazove.org/loopyjs"},
+		{"type": "code", "href":  "http://github.com/jzazove/notext"},
+		{"type": "web", "href":  "http://zazove.org"}
+				
+	]
+}

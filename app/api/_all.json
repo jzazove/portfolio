@@ -1,0 +1,11 @@
+{
+	"projects": [
+		{"id": "endlesstv", "name": "EndlessTV", "type": "Visual Design and UX", "platform": ["iOS", "Android", "web", "branding"], "thumbnail": "./app/img/thumb-endlesstv.jpg"},
+		{"id": "tip-or-skip", "name": "Tip or Skip", "type": "Visual Design and UX", "platform": ["iOS", "Android", "web", "branding"], "thumbnail": "./app/img/thumb-tiporskip.jpg"},
+		{"id": "papervitamins", "name": "Papervitamins", "type": "Visual Design and UX", "platform": ["web", "branding"], "thumbnail": "./app/img/thumb-papervitamins.gif"},
+		{"id": "dear-mta", "name": "Dear MTA", "type": "Visual Design and UX", "platform": ["web", "branding"], "thumbnail": "./app/img/thumb-dearmta.jpg"},
+		{"id": "julian", "name": "Julian", "type": "Visual Design and UX", "platform": ["iOS", "Android", "web", "branding"], "thumbnail": "./app/img/thumb-julian.gif"},
+		{"id": "labs", "name": "Labs", "type": "Visual Design and UX", "platform": ["iOS", "Android", "web", "branding"], "thumbnail": "./app/img/thumb-labs.png"}
+
+	]
+}

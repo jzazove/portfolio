@@ -1,0 +1,26 @@
+<header ng-include ng-show="active='portfolio'" src="'./app/partials/inc/nav.html'"></header>
+<div class="breadcrumb"><ol><li><a href="#/">Design</a></li><li>{{project.name}}</li></ol></div>
+
+<article>
+<section class="section">
+<div class="project ">
+	<div class="project-gallery">
+	<div swiper value="project.images" id="slider" class="swipe tada"><div class="swipe-wrap">
+	    <div ng-repeat="i in project.images"><img class="screenshot" ng-src="{{i.url}}" alt="{{i.name}}"></div>		    
+	</div></div>
+	<a href="" swiperleft class="twistIn fa fa-arrow-left"></a>
+	<a href="" swiperright class="twistIn fa fa-arrow-right"></a>
+	</div>
+	<div class="project-details">
+		<h1>{{project.name}}</h1>
+		<ul class="list"><li ng-repeat="b in project.list">{{b}}</li></ul>
+		<ul class="links"><li ng-repeat="a in project.links"><a ng-href="{{a.href}}" class="btn push"><i class="{{a.type | platform}}"></i><span ng-if="a.href===''">coming soon</span></a></li></ul>
+	</div>
+
+	
+</div>
+
+
+</section>
+</article>
+<footer ng-include src="'./app/partials/inc/footer.html'"></footer>

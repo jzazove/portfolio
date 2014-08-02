@@ -1,0 +1,13 @@
+{
+	"id": "dear-mta",
+	"name": "Dear MTA",
+	"images": [
+		{"id": 1, "name": "Dear MTA", "url": "./app/img/dearmta-screenshot-01.jpg"},
+		{"id": 2, "name": "Dear MTA", "url": "./app/img/dearmta-screenshot-02.jpg"},
+		{"id": 3, "name": "Dear MTA", "url": "./app/img/dearmta-screenshot-03.jpg"}
+	],
+	"list": ["Creative Lead", "Interaction Lead", "Visual Design", "Logo Design", "Web Design"],
+	"links":[
+		{"type": "web", "href":  "http://www.dearmta.info"}
+	]
+}

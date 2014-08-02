@@ -1,0 +1,14 @@
+<header ng-include ng-show="active='portfolio'" src="'./app/partials/inc/nav.html'"></header>
+<article>
+<section class="section">
+<ul class="t">
+<li ng-repeat="p in projects | orderBy:orderProp:reverse" class="twistIn">
+<a ng-href="#project/{{p.id}}">
+	<img class="img" ng-src="{{p.thumbnail}}" alt="{{p.name}} designs" />
+	<h2>{{p.name}}</h2><h3>{{p.type}}</h3><!--h4><i ng-repeat="t in p.platform" class="{{t | platform}}" title="{{t}}"></i></h4-->
+</a></li>
+		
+</ul>
+</section>
+</article>
+<footer ng-include src="'./app/partials/inc/footer.html'"></footer>

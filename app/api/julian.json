@@ -1,0 +1,13 @@
+{
+	"id": "julian",
+	"name": "Julian",
+	"images": [
+		{"id": 1, "name": "Julian", "url": "./app/img/julian-screenshot-01.jpg"},
+		{"id": 2, "name": "Julian", "url": "./app/img/julian-screenshot-02.jpg"},
+		{"id": 3, "name": "Julian", "url": "./app/img/julian-screenshot-03.jpg"}
+	],
+	"list": ["Creative Lead", "Interaction Lead", "Visual Design", "Logo Design", "Mobile Design"],
+	"links":[
+		{"type": "iOS", "href":  ""}
+	]
+}
