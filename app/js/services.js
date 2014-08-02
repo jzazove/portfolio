@@ -13,7 +13,7 @@ var jzServices = angular.module('jzServices', ['ngResource']);
 
 jzServices.factory('ProjectsAll', ['$resource',
   function($resource){
-    return $resource('/portfolio/data/_all.json', {}, {
+    return $resource('/portfolio/data/all.json', {}, {
       get: {method:'GET',  params:{}, isArray:false, headers: HEADERS}
     });
 }]);  
