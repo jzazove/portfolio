@@ -22,9 +22,9 @@ header nav a.active {color:#444; background:#bbb; /*border-left:1px solid #ceccc
 
 header, footer {color:#8a8e8b; }
 header a { display: inline-block; color:#666; }
-footer {margin:100px auto 0; padding:20px 0;	background:#CACBCC;}
+footer {margin:100px auto 0; padding:40px 0;	background:#CACBCC;}
 footer ul {max-width: 900px; margin:0 auto; text-align: center}
-footer li {display:inline-block; width:50px; height: 50px; vertical-align: top;}
+footer li {display:inline-block; width:100px; height: 50px; vertical-align: top;}
 footer li a {display:inline-block;width:100%; height:100%; font-size:140%;}
 
 .avatar {margin:20px auto; text-align: center}
@@ -70,7 +70,7 @@ footer li a {display:inline-block;width:100%; height:100%; font-size:140%;}
 .btn i {font-size:140%;}
 .btn span {display:block; font-size:80%; line-height:20px;}
 
-.btn:active {border:none;position: relative; top:6px;}
+.btn:hover , .btn:active {border:none;position: relative; top:6px;}
 
 .redirect {background:rgba(255,255,255,0.8); position:absolute; top:0; left:0; width:100%; height:100%; text-align: center; padding-top:40%; color:#ccc;}
 
@@ -103,6 +103,7 @@ footer li a {display:inline-block;width:100%; height:100%; font-size:140%;}
 	.project-details h1, .project-details .list {text-align: center;}
 	.project-details .links {margin:0 auto; text-align: center}
 	.project-details .links li {margin:10px}
+	footer li {width:50px;}
 
 }
 

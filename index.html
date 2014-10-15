@@ -9,15 +9,54 @@
 <meta property="og:url" content="http://zazove.org/porfolio/"/>
 <meta property="og:image" content="http://en.gravatar.com/userimage/26106449/fc152a712fb8eec02599762db5274b50.jpg?size=500"/>
 <title>Jonathan Zazove's Design Portfolio</title>
-<script type="text/javascript"> WebFontConfig = {google: {families:['Dosis:600:latin']},custom: {families: [ 'FontAwesome' ],urls: [ '//maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css'] } }; (function() {var wf = document.createElement('script'); wf.src = ('https:' == document.location.protocol ? 'https' : 'http') + '://ajax.googleapis.com/ajax/libs/webfont/1/webfont.js'; wf.type = 'text/javascript'; wf.async = 'true'; var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(wf, s); })(); </script> 
-<link rel="stylesheet" href="./app/css/app.css" />
-<script src="./app/lib/lib.js"></script>
-<script src="./app/js/app.js"></script>
-<script src="./app/js/controllers.js"></script>
-<script src="./app/js/filters.js"></script>
-<script src="./app/js/services.js"></script>
-<script src="./app/js/directives.js"></script>
 </head>
 <body ng-view></body>
-<script type="text/javascript">var _gaq=_gaq||[];_gaq.push(['_setAccount','UA-37606399-1']);_gaq.push(['_trackPageview']);(function(){var ga=document.createElement('script');ga.type='text/javascript';ga.async=true;ga.src=('https:'==document.location.protocol?'https://ssl':'http://www')+'.google-analytics.com/ga.js';var s=document.getElementsByTagName('script')[0];s.parentNode.insertBefore(ga,s);})();</script>
+<script>
+(function() {
+
+var sync = true;
+WebFontConfig = {google: {families:['Dosis:600:latin']},custom: {families: [ 'FontAwesome' ],urls: [ '//maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css'] } }; 
+
+addTag('script', {src:'//ajax.googleapis.com/ajax/libs/webfont/1/webfont.js'})
+addTag('link', {rel: 'stylesheet', href: './app/css/app.css', type: 'text/css'});
+addTag('script', {src: './app/lib/lib.js' }, sync);
+addTag('script', {src: './app/js/app.js' }, sync);
+addTag('script', {src: './app/js/controllers.js' }, sync);
+addTag('script', {src: './app/js/filters.js' }, sync);
+addTag('script', {src: './app/js/services.js' }, sync);
+addTag('script', {src: './app/js/directives.js' }, sync);
+
+
+function addTag(name, attributes, sync) {
+	var el = document.createElement(name);
+	var attrName;
+	var headEl = document.getElementsByTagName('head')[0];
+
+	for (attrName in attributes) {
+  		el.setAttribute(attrName, attributes[attrName]);
+	};
+	sync ? document.write(outerHTML(el)) : headEl.appendChild(el);
+};
+
+function outerHTML(node){
+return node.outerHTML || (
+    function(n){
+        var div = document.createElement('div'), h;
+        div.appendChild(n);
+        h = div.innerHTML;
+        div = null;
+        return h;
+    })(node);
+};
+})();
+
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-37606399-1', 'auto');
+  ga('send', 'pageview');
+
+</script>
 </html>
