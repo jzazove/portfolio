@@ -1,0 +1,19 @@
+{
+	"id": "wordjam",
+	"name": "Word Jam",
+	"images": [
+		{"id": 1, "name": "Word Jam", "url": "./app/img/wordjam-screenshot-01.jpg"},
+		{"id": 2, "name": "Word Jam", "url": "./app/img/wordjam-screenshot-02.jpg"},
+		{"id": 3, "name": "Word Jam", "url": "./app/img/wordjam-screenshot-03.jpg"}
+	],
+	"list": {
+		"designer": ["Creative Lead", "Visual Design", "Logo Design", "Mobile UI/UX", "Web Design"],
+		"engineer": ["iOS", "Front End Engineering", "Architecture"]
+	},
+	"link": "http://wordjam.net",
+	"links":[
+		{"type": "iOS", "href": "http://endlesstv.com/ios"},
+		{"type": "Android", "href":  "http://endlesstv.com/android"},
+		{"type": "web", "href":  "http://endlesstv.com"}
+	]
+}

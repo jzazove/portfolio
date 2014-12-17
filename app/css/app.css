@@ -1,72 +1,71 @@
-html{width:100%;height:100%;background:#f2f4f5;}
-body{width:100%;height:100%;margin:0 auto;padding:0;text-align:center;font-size:24px;font-family:"Dosis","Helvetica Neue",Helvetica,arial,sans-serif;font-weight:bold;color:#454545; -webkit-font-smoothing: antialiased;}
-article,section{width:100%;margin:0 auto; text-align: center;}
-article {}
+html{width:100%;height:100%;background:#2d2d2d;}
+body{width:100%;height:100%;margin:0 auto;padding:0;text-align:center;font-size:24px;font-family:"Helvetica Neue",Helvetica,arial,sans-serif;font-weight:bold;color:#eee; -webkit-font-smoothing: antialiased;}
+article,section{width:100%;height:100%;margin:0 auto; text-align: center;}
 header,nav,article,section,footer{display:block}	
 a{cursor:pointer;text-decoration:none}
 h1,h2,h3,h4,ul,li,p,ul,ol{margin:0;padding:0}
 h1{font-size:208%}
 h2{font-size:100%;}
 ul,li {list-style-type: none}
-a{display:inline-block;margin-right:4px;color:#444}
+a{display:inline-block;margin-right:4px;color:#eee}
 
-article {min-height:600px}
 
-header {text-align: left; background:#CACBCC; line-height: 60px; overflow: hidden}
-header div {width:900px; margin:0 auto;}
-header .logo {float:left;}
-header nav { float:right;  }
-header nav a {padding:0 18px;}
-header nav .fa, header .logo i {display:none;}
-header nav a.active {color:#444; background:#bbb; /*border-left:1px solid #cecccc; border-right: 1px solid #cecccc;*/ }
+header {position: fixed; top:0; width:100%; z-index:2;text-align: left; background:#2d2d2d; line-height: 60px; overflow: hidden;  -webkit-transform: translatez(0);transform: translatez(0);}
+header * {vertical-align: top;height: 50px;text-align: center;line-height: 50px; color:#ccc;}
+header .logo {display:block; text-align: center}
+header .nav {float:right; -webkit-transform: rotate(90deg);transform: rotate(90deg); letter-spacing: 3px;}
+.article {position:relative; top:60px; }
+footer {padding:200px 0;}
+section h1 {font-size:333%;}
+section h2 {font-size:300%;}
+section h3 {font-size:80%;}
+.home section div {position: relative;top: 50%;-webkit-transform: translateY(-50%);transform: translateY(-50%);}
 
-header, footer {color:#8a8e8b; }
-header a { display: inline-block; color:#666; }
-footer {margin:100px auto 0; padding:40px 0;	background:#CACBCC;}
-footer ul {max-width: 900px; margin:0 auto; text-align: center}
-footer li {display:inline-block; width:100px; height: 50px; vertical-align: top;}
-footer li a {display:inline-block;width:100%; height:100%; font-size:140%;}
+.bg-intro {background-color:#2d2d2d;}
+.bg-endlesstv {background-color:#25BF79;}
+.bg-tip-or-skip {background-color: #61C3E1}
+.bg-papervitamins {background-color:#fff;}
+.bg-dear-mta {background-color:#e1be4f }
+.bg-labs {background-color:#8a4aff;}
+.bg-wordjam {background-color: #E2E2E2}
+.img {display:block; width:100%;}
 
-.avatar {margin:20px auto; text-align: center}
-.avatar-image {margin:0 auto; width:400px; height:400px; overflow: hidden}
-.avatar-image img {width:400px; height:400px; border-radius: 400px}
-.avatar-title, .avatar-title h1 { display:inline}
+.bg-papervitamins h1, .bg-papervitamins h2, .bg-papervitamins h3, .bg-papervitamins .project, .bg-papervitamins a { color:#4c6f8a; }
+.bg-dear-mta h1, .bg-dear-mta h2, .bg-dear-mta h3, .bg-dear-mta .project {color:#1466B7}
+.bg-wordjam h1, .bg-wordjam h2, .bg-wordjam h3, .bg-wordjam .project, .bg-wordjam a {color: #666}
 
-.breadcrumb {background: #bbb;width: 100%;padding: 10px 0;border-bottom: 1px solid #cecccc;}
-.breadcrumb ol {max-width:900px;margin: 0 auto;text-align: left; }
-.breadcrumb li {display: inline-block;font-size: 80%;}
-.breadcrumb li a {color: #888; padding:4px;}
-.breadcrumb li a:after {content: " >";font-size: 80%;}
+.link {display:block; text-align: left; margin:20px 0;}
+.bg-fb {background:#3b5998; color:#fff;}
+.bg-tw {background:#55acee; color:#fff;}
+.bg-li {background: #0077b5; color:#fff;}
+.bg-gh,.bg-jz {background:#171516; color:#fff;}
 
-.section {max-width:1024px;}
-.t li {display:inline-block; position:relative; vertical-align:top; margin:40px 20px 0; width:300px; height:300px; background:#fff; overflow: hidden; box-shadow: inset 0px 0px 0px 1px rgba(0,0,0,0.15), 0px 2px 3px 0px rgba(0,0,0,0.1); }
-.t li a {display:block;}
-.t li .img {width:300px; height:200px }
-.t li h2, .section li h3, .section li h4 {padding:0 10px; font-size:100%;}
-.t li h2 {padding:10px 10px 0;}
-.t li h3 {font-size:80%; color:#888; font-weight:normal;}
-.t li h4 {font-size:80%; opacity:0; -webkit-transition: all 0.3s ease;transition: all 0.3s ease;}
-.t li h4 .fa {color:#888; padding:0 2px;}
-
-.section .project {margin:40px 0; overflow: hidden}
-
-.swipe {overflow: hidden; visibility: hidden; position: relative; background: #fff; border:1px solid #ddd; margin-bottom:10px;} 
+.swipe {overflow: hidden; visibility: hidden; position: relative; background: transparent; /*border:1px solid #ddd;*/ margin-bottom:10px;} 
 .swipe-wrap {overflow: hidden; position: relative; } 
 .swipe-wrap > div {float:left;width:100%;position: relative;}
-.screenshot {width:512px; height:384px; padding:14px 0 7px; background-position: 0 0; background-size: cover; }
+.screenshot {width:440px; height:340px; background-position: 50% 50%; background-size: cover; }
 
-.project-gallery {width:540px; float:left;}
-.project-gallery .fa {background:#fff; width:45px; height:45px; line-height: 45px; border-radius: 8px; border:1px solid #ddd;}
-.project-gallery .fa-arrow-right {float:right;}
+.project {max-width:960px; margin:0 auto; padding:60px 0;}
+.project h1 {padding:0 0 60px;}
+.project-gallery {width:440px;  float:left;}
+.project-gallery .fa {background:#fff;color:#666; width:45px; height:45px; line-height: 45px; border-radius: 8px; /*border:1px solid #ddd;*/}
+.project-gallery .fa-arrow-right {float:right; }
 .project-gallery .fa-arrow-left {float:left;}
 
 .project-details {width:400px; float:right; }
-.project-details h1, .project-details ul {text-align: left}
+.project-details ul {text-align: left}
 .project-details .list {margin:20px 0;}
 .project-details .links li {display: inline-block; margin:10px 20px 10px 0; }
 
-.list {font-size:100%;font-weight: normal}
-.btn {display: inline-block; width:64px; height:58px; line-height: 64px; vertical-align: middle; text-align: center; color:#979797; border-bottom:6px solid #979797; background:#cfcfcf; border-radius: 10px }
+.list {font-size:60%;font-weight: normal; overflow: hidden;}
+.list ul { float:left; width:45%;}
+.list h2 {font-size:140%; text-align: left}
+
+.footer li {display:inline-block; width:100px; height:100px;}
+.footer li a {display:block; width:100%; height:100%;}
+.footer li .fa {font-size:300%;line-height: 100px}
+
+.btn {display: block; width:400px; height:58px; line-height: 64px; vertical-align: middle; text-align: center; color:#979797; border-bottom:6px solid #979797; background:#cfcfcf; border-radius: 10px }
 .btn i {font-size:140%;}
 .btn span {display:block; font-size:80%; line-height:20px;}
 
@@ -74,7 +73,6 @@ footer li a {display:inline-block;width:100%; height:100%; font-size:140%;}
 
 .redirect {background:rgba(255,255,255,0.8); position:absolute; top:0; left:0; width:100%; height:100%; text-align: center; padding-top:40%; color:#ccc;}
 
-.topin {-webkit-animation: topin 1s;animation: topin 1s;}@-webkit-keyframes topin {from {top: -2000px} to {top:0;}}@keyframes topin {from {top: -2000px} to {top:0;}}
 
 
 @media only screen and (max-width:766px){
@@ -85,47 +83,22 @@ footer li a {display:inline-block;width:100%; height:100%; font-size:140%;}
 	body{font-size:24px}
 }
 
+
 @media only screen and (max-width:600px){
-	article {min-height:100px}
-	header .logo {display: none}
-	header nav, header div {float:none; width:100%; margin:0; padding:0;}
-	header nav a {width:50%; float:left; overflow: hidden; font-size:80%; margin:0; padding:0; text-align: center; line-height: 30px}
-	header nav .fa {display:block; margin-top:10px; text-align:center; font-size:140%;}
-	.t li { width:120px; height:120px; margin:14px; }
-	.t li .img { width:120px; height:80px;} 
-	.t li h2 {margin:2px 5px; padding:0; font-size:80%;}
-	.t li h3 {display:none;}
-	.swipe {border:1px solid #ddd; border-left:none; border-right:none;}
-	.screenshot {width:300px; height:225px; padding:7px 0 0 0 }
+	section h1 {font-size:160%; width:50%;margin:0 auto;}
+	section h2 {font-size:120%;}
+	.article {min-height:600px}
+	.project h1 {padding:0 0 20px;}
+	.screenshot {width:320px; height:225px; padding:7px 0 0 0 }
 	.project-gallery {width:100%; float:none; clear:both; }
 	.project-gallery .fa {display:none;}
 	.project-details {width:100%; margin:0 auto; float:none; }
-	.project-details h1, .project-details .list {text-align: center;}
-	.project-details .links {margin:0 auto; text-align: center}
-	.project-details .links li {margin:10px}
-	footer li {width:50px;}
-	.avatar-image, .avatar-image img {width:200px; height:200px; border-radius: 200px}
+	.list {width:100%;overflow: hidden; }
+	.list ul {position: relative;left: 50%;-webkit-transform: translateX(-90%);transform: translateX(-90%)}
+	.link {text-align:center;}
+	.footer li {width:50px; height:50px;}
+	.footer li .fa {font-size: 150%; line-height: 50px}
 }
 
 
-@-webkit-keyframes twistIn {0% { -webkit-transform: scale(0) rotate(-180deg);opacity: 0;} 50% {-webkit-transform: scale(1) rotate(0deg) ; opacity: 1; } 70% {-webkit-transform: scale(1) rotate(0deg); } 100% {-webkit-transform: scale(1) rotate(0deg);opacity: 1; } } @keyframes twistIn {00% {transform: scale(0) rotate(-180deg); opacity: 0; } 50% {transform: scale(1) rotate(0deg); opacity: 1; } 70%{transform: scale(1) rotate(0deg); } 100% {transform: scale(1) rotate(0deg);opacity: 1; } } 
-.twistIn,.twistIn.ng-enter, .twistIn.ng-leave {-webkit-animation-name: twistIn;animation-name: twistIn; -webkit-animation-duration: 1s;animation-duration: 1s;-webkit-animation-fill-mode: both;animation-fill-mode: both;}
-.twistIn:nth-child(1) { -webkit-animation-delay:0s;animation-delay:0s;}
-.twistIn:nth-child(2) { -webkit-animation-delay:.1s;animation-delay:.1s;}
-.twistIn:nth-child(3) { -webkit-animation-delay:.2s;animation-delay:.2s;}
-.twistIn:nth-child(4) { -webkit-animation-delay:.3s;animation-delay:.3s;}
-.twistIn:nth-child(5) { -webkit-animation-delay:.4s;animation-delay:.4s;}
-.twistIn:nth-child(6) { -webkit-animation-delay:.5s;animation-delay:.5s;}
-.spin {-webkit-animation-name: spin;-webkit-animation-duration: 10000ms;-webkit-animation-iteration-count: infinite;-webkit-animation-timing-function: linear;-moz-animation-name: spin; -moz-animation-duration: 10000ms; -moz-animation-iteration-count: infinite; -moz-animation-timing-function: linear; animation-name: spin; animation-duration: 1000ms; animation-iteration-count: infinite; animation-timing-function: linear;} 
-@-webkit-keyframes spin {from { -webkit-transform: rotate(0deg); } to { -webkit-transform: rotate(360deg); } } @keyframes spin {from {transform:rotate(0deg); } to {transform:rotate(360deg); } }
-@-webkit-keyframes tada {0% {-webkit-transform: scale3d(1, 1, 1); transform: scale3d(1, 1, 1) } 10%, 20% {-webkit-transform: scale3d(.9, .9, .9) rotate3d(0, 0, 1, -3deg); transform: scale3d(.9, .9, .9) rotate3d(0, 0, 1, -3deg) } 30%, 50%, 70%, 90% {-webkit-transform: scale3d(1.1, 1.1, 1.1) rotate3d(0, 0, 1, 3deg); transform: scale3d(1.1, 1.1, 1.1) rotate3d(0, 0, 1, 3deg) } 40%, 60%, 80% {-webkit-transform: scale3d(1.1, 1.1, 1.1) rotate3d(0, 0, 1, -3deg); transform: scale3d(1.1, 1.1, 1.1) rotate3d(0, 0, 1, -3deg) } 100% {-webkit-transform: scale3d(1, 1, 1); transform: scale3d(1, 1, 1) } } @keyframes tada {0% {-webkit-transform: scale3d(1, 1, 1); -ms-transform: scale3d(1, 1, 1); transform: scale3d(1, 1, 1) } 10%, 20% {-webkit-transform: scale3d(.9, .9, .9) rotate3d(0, 0, 1, -3deg); -ms-transform: scale3d(.9, .9, .9) rotate3d(0, 0, 1, -3deg); transform: scale3d(.9, .9, .9) rotate3d(0, 0, 1, -3deg) } 30%, 50%, 70%, 90% {-webkit-transform: scale3d(1.1, 1.1, 1.1) rotate3d(0, 0, 1, 3deg); -ms-transform: scale3d(1.1, 1.1, 1.1) rotate3d(0, 0, 1, 3deg); transform: scale3d(1.1, 1.1, 1.1) rotate3d(0, 0, 1, 3deg) } 40%, 60%, 80% {-webkit-transform: scale3d(1.1, 1.1, 1.1) rotate3d(0, 0, 1, -3deg); -ms-transform: scale3d(1.1, 1.1, 1.1) rotate3d(0, 0, 1, -3deg); transform: scale3d(1.1, 1.1, 1.1) rotate3d(0, 0, 1, -3deg) } 100% {-webkit-transform: scale3d(1, 1, 1); -ms-transform: scale3d(1, 1, 1); transform: scale3d(1, 1, 1) } } 
-.tada {-webkit-animation-name: tada; animation-name: tada; -webkit-animation-duration: 1s;animation-duration: 1s;-webkit-animation-fill-mode: both;animation-fill-mode: both; }
-@-webkit-keyframes push {from { border:none; top:6px; } to {top:0px;} } @keyframes spin {from {border:none; top:6px;  } to {border:none; top:0px;  } }
-
-	
-
-html,body {background:#f1f1f1;}
-header, footer {background:#43464c;}
-header nav a, header a, footer .fa { color:#f1f1f1;}
-.breadcrumb, header nav a.active, .breadcrumb li a {background:#636770; color:#a4abbb;}
 

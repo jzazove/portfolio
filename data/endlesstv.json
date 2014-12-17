@@ -9,7 +9,11 @@
 		{"id": 5, "name": "EndlessTV", "url": "./app/img/endlesstv-screenshot-05.jpg"},
 		{"id": 6, "name": "EndlessTV", "url": "./app/img/endlesstv-screenshot-06.jpg"}
 	],
-	"list": ["Creative Lead", "Visual Design", "Logo Design", "Mobile UI/UX","Web Design"],
+	"list": {
+		"designer": ["Creative Lead", "Visual Design", "Logo Design", "Mobile UI/UX", "Web Design"],
+		"engineer": ["CTO", "Front End Engineering", "API Design", "Architecture", "Management"]
+	},
+	"link": "http://endlesstv.com",
 	"links":[
 		{"type": "iOS", "href": "http://endlesstv.com/ios"},
 		{"type": "Android", "href":  "http://endlesstv.com/android"},

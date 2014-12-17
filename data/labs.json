@@ -7,7 +7,11 @@
 		{"id": 3, "name": "Labs", "url": "./app/img/labs-screenshot-03.jpg"},
 		{"id": 4, "name": "Labs", "url": "./app/img/labs-screenshot-04.jpg"}	
 	],
-	"list": ["Creative Lead", "Interaction Lead", "Visual Design", "Logo Design"],
+	"list": {
+		"designer": ["Creative Lead", "Interaction Lead", "Visual Design", "Logo Design"],
+		"engineer": ["Hacker", "Tech Lead", "Idiot", "CTO"]
+	},
+	"link": "http://zazove.org",
 	"links":[
 		{"type": "web", "href":  "http://zazove.org/searchpage"},
 		{"type": "code", "href":  "http://zazove.org/loopyjs"},

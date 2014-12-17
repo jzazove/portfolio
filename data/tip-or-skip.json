@@ -1,5 +1,5 @@
 {
-	"id": "tiporskip",
+	"id": "tip-or-skip",
 	"name": "Tip or Skip",
 	"images": [
 		{"id": 1, "name": "Tip or Skip", "url": "./app/img/tiporskip-screenshot-01.jpg"},
@@ -7,7 +7,11 @@
 		{"id": 3, "name": "Tip or Skip", "url": "./app/img/tiporskip-screenshot-03.jpg"},
 		{"id": 4, "name": "Tip or Skip", "url": "./app/img/tiporskip-screenshot-04.jpg"}	
 	],
-	"list": ["Interaction Lead", "Mobile UI/UX", "Visual Design", "Logo Design", "Web Design" ],
+	"list": { 
+		"designer":["Interaction Lead", "Mobile UI/UX", "Visual Design", "Logo Design", "Web Design" ],
+		"engineer": ["CTO", "Front End Engineering", "API Design", "Architecture", "Management"]
+	},
+	"link": "http://tiporskip.com",
 	"links":[
 		{"type": "iOS", "href": "https://itunes.apple.com/us/app/tip-or-skip-shop-ebay-amazon/id496354398?mt=8"},
 		{"type": "Android", "href":  "https://play.google.com/store/apps/details?id=com.tiporskip"},

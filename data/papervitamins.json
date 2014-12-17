@@ -7,7 +7,11 @@
 		{"id": 3, "name": "Papervitamins", "url": "./app/img/papervitamins-screenshot-03.jpg"},
 		{"id": 4, "name": "Papervitamins", "url": "./app/img/papervitamins-screenshot-04.jpg"}	
 	],
-	"list": ["Creative Lead", "Interaction Lead", "Visual Design", "Logo Design", "Web Design"],
+	"list": {
+		"designer": ["Creative Lead", "Interaction Lead", "Visual Design", "Logo Design", "Web Design"],
+		"engineer": ["Front-End Engineer", "Back-End Engineer", "Architect", "DevOps"]
+	}, 
+	"link": "http://www.papervitamins.com",
 	"links":[
 		{"type": "web", "href":  "http://www.papervitamins.com"}
 	]

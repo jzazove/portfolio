@@ -1,11 +1,11 @@
 {
 	"projects": [
-		{"id": "endlesstv", "name": "EndlessTV", "type": "Visual Design and UX", "platform": ["iOS", "Android", "web", "branding"], "thumbnail": "./app/img/thumb-endlesstv.jpg"},
-		{"id": "tip-or-skip", "name": "Tip or Skip", "type": "Visual Design and UX", "platform": ["iOS", "Android", "web", "branding"], "thumbnail": "./app/img/thumb-tiporskip.jpg"},
-		{"id": "papervitamins", "name": "Papervitamins", "type": "Visual Design and UX", "platform": ["web", "branding"], "thumbnail": "./app/img/thumb-papervitamins.gif"},
-		{"id": "dear-mta", "name": "Dear MTA", "type": "Visual Design and UX", "platform": ["web", "branding"], "thumbnail": "./app/img/thumb-dearmta.jpg"},
-		{"id": "julian", "name": "Julian", "type": "Visual Design and UX", "platform": ["iOS", "Android", "web", "branding"], "thumbnail": "./app/img/thumb-julian.gif"},
-		{"id": "labs", "name": "Labs", "type": "Visual Design and UX", "platform": ["iOS", "Android", "web", "branding"], "thumbnail": "./app/img/thumb-labs.png"}
+		{"id": "endlesstv", "name": "EndlessTV", "role": "CTO, Lead Designer, Employee #1", "type": "Visual Design and UX", "platform": ["iOS", "Android", "web", "branding"], "thumbnail": "./app/img/thumb-endlesstv.jpg?hello=1"},
+		{"id": "tip-or-skip", "name": "Tip or Skip", "role": "CTO, Designer, Engineer, Employee #1", "type": "Visual Design and UX", "platform": ["iOS", "Android", "web", "branding"], "thumbnail": "./app/img/thumb-tiporskip.png"},
+		{"id": "papervitamins", "name": "Papervitamins", "role": "Founder, CEO, Engineer, Designer", "type": "Visual Design and UX", "platform": ["web", "branding"], "thumbnail": "./app/img/thumb-papervitamins.jpg"},
+		{"id": "dear-mta", "name": "Dear MTA","role": "Founder, CEO, Engineer, Designer", "type": "Visual Design and UX", "platform": ["web", "branding"], "thumbnail": "./app/img/thumb-dearmta.png"},
+		{"id": "labs", "name": "Labs", "role": "Engineer, Designer", "type": "Visual Design and UX", "platform": ["iOS", "Android", "web", "branding"], "thumbnail": "./app/img/thumb-julian.gif"},
+		{"id": "wordjam", "name": "Word Jam", "role": "Founder, Engineer, Designer","type": "Visual Design and UX", "platform": ["iOS"], "thumbnail": "./app/img/thumb-wordjam.png"}
 
 	]
 }
